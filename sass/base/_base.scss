@@ -1,0 +1,29 @@
+:root{
+
+    --primary-bright-orange: hsl(31, 77%, 52%);
+    --primary-dark-cyan: hsl(184, 100%, 22%);
+    --primary-very-dark-cyan: hsl(179, 100%, 13%);
+
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray : hsl(0, 0%, 95%);
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 93.75%;
+}
+
+body{
+    box-sizing: border-box;
+
+    // display: grid;
+    // grid-template-rows: minmax(5rem, 1fr) min-content minmax(5rem, 1fr);
+    // grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] 2fr [center-end] minmax(6rem, 1fr) [full-end]; 
+}
